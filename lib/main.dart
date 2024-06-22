@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:lesson61_slayver/views/screens/homepage.dart';
 
 void main() {
@@ -12,10 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
       home: Homepage(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
-
